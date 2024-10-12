@@ -13,7 +13,7 @@
 
 2. Change into the directory and install the dependencies
 
-3. Rename `.env.local.example` to `.env.local` and add your Fal.ai [API Key](https://www.fal.ai/dashboard/keys).
+3. Rename `.env.example` to `.env.local` and add your Fal.ai( 1 dolar free credit) [API Key](https://www.fal.ai/dashboard/keys).
 
 4. Run the app
 
