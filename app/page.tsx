@@ -9,8 +9,8 @@ fal.config({
 
 const seed = Math.floor(Math.random() * 100000)
 const baseArgs = {
-  sync_mode: true,
-  strength: .99,
+  sync_mode: true, // for synchranisiason
+  strength: .99, // increases or decreases the power of the algorithm
   seed
 }
 
@@ -97,8 +97,8 @@ export default function Home() {
       >
         <option value="110602490-sdxl-turbo-realtime">SDXL Turbo</option>
         <option value="fal-ai/fast-sdxl-controlnet-canny">ControlNet SDXL</option>
-        {/* Diğer model seçeneklerini buraya eklebilirsiniz.
-         connection keyi değiştirilebilir apiyi tekrardan bağlamak gerek.*/}
+        {/* You can add other model options here.
+         connection key can be changed, you need to reconnect the api.*/}
         
       </select>
       <input
